@@ -45,6 +45,10 @@ describe DockingStation do
       #curly braces are used for procs (a block of code)
     end
 
+  it 'has a defult capacity' do
+    expect(subject.capacity).to eq DockingStation::DEFAULT_CAPACITY
+  end
+
   end
 
   end
